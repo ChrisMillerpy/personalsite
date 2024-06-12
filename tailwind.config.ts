@@ -9,7 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        myred: "#290505",
+        darkred: {
+          background: "#290505",
+          header: "#D7224D",
+        },
       },
     },
   },
