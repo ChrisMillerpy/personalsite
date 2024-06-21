@@ -5,7 +5,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ padding }) => {
   return (
     <div
-      className={`absolute flex items-center top-0 left-0 bg-darkred-header bg-opacity-[0.13] w-full h-[90px] ${padding}`}
+      className={`z-10 absolute flex items-center top-0 left-0 bg-darkred-header bg-opacity-[0.13] w-full h-[90px] ${padding}`}
     >
       <div className="w-full flex justify-between items-center">
         <div>
