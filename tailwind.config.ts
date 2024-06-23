@@ -19,6 +19,9 @@ const config: Config = {
           2: "#510018",
           3: "#FF006B",
         },
+        project: {
+          base: "#D7224D",
+        },
       },
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
