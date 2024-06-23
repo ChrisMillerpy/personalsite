@@ -2,7 +2,7 @@ import Section from "./Section";
 
 const Hero = () => {
   return (
-    <Section className="grid grid-cols-2 gap-[15px]">
+    <Section id="hero" className="grid grid-cols-2 gap-[15px]">
       <div>
         <h1 className="mb-12">Explore My Projects And Blog...</h1>
         <p className="w-5/6 mb-3">

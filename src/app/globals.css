@@ -20,6 +20,8 @@
 main,
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-margin-top: 90px;
 }
 
 h1 {

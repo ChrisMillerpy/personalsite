@@ -12,7 +12,7 @@ export default function Home() {
     >
       <Header padding={xlPadding} />
       <BackgroundSpotlights />
-      <div className="z-10 mt-[90px]">
+      <div className="z-10">
         <Hero />
         <Projects />
         <Placeholder />
