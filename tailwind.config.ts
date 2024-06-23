@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         darkred: {
           background: "#290505",
-          header: "#D7224D",
+          header: "#FF1313",
         },
         spotlight: {
           1: "#890000",
