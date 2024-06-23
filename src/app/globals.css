@@ -10,6 +10,11 @@
   font-weight: 400;
 }
 
+main,
+html {
+  overflow-x: hidden;
+}
+
 .outfit-regular {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
