@@ -4,7 +4,7 @@ interface SectionProps {
 }
 
 const Section: React.FC<SectionProps> = ({ className, children }) => {
-  return <div className={`mt-20 ${className || ""}`}>{children}</div>;
+  return <div className={`mt-28 ${className || ""}`}>{children}</div>;
 };
 
 export default Section;
