@@ -5,7 +5,9 @@ const Hero = () => {
         <h1 className="mb-12">Explore My Projects And Blog...</h1>
         <p className="w-5/6 mb-3">
           My name's Chris. I'm a maths student and coding enthusiast. Please
-          feel free to have a poke around my projects and blog.
+          feel free to have a poke around my projects and blog. I am also very
+          sexy with a wonderful moustache, my lost sector receives 5 star
+          reviews all around, inside and out.
         </p>
         <p>Enjoy and have a nice day :)</p>
       </div>
