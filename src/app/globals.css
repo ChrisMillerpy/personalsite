@@ -35,11 +35,11 @@ h2 {
   font-size: 48px;
   font-weight: semi-bold;
   line-height: 100%;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 p {
   font-family: "Roboto";
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
 }
