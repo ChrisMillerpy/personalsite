@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import Placeholder from "@/components/Placeholder";
 import BackgroundSpotlights from "@/components/Spotlight";
 
@@ -10,7 +11,10 @@ export default function Home() {
     >
       <Header padding={xlPadding} />
       <BackgroundSpotlights />
-      <Placeholder />
+      <div className="z-10 mt-[90px]">
+        <Hero />
+        <Placeholder />
+      </div>
     </main>
   );
 }
