@@ -21,3 +21,25 @@ main,
 html {
   overflow-x: hidden;
 }
+
+h1 {
+  font-family: "Outfit";
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: "Outfit";
+  font-size: 48px;
+  font-weight: semi-bold;
+  line-height: 100%;
+  letter-spacing: -2px;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 20px;
+}
