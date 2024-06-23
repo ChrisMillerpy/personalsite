@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Placeholder from "@/components/Placeholder";
+import Projects from "@/components/Projects";
 import BackgroundSpotlights from "@/components/Spotlight";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <BackgroundSpotlights />
       <div className="z-10 mt-[90px]">
         <Hero />
+        <Projects />
         <Placeholder />
       </div>
     </main>
