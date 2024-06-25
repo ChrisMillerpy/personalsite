@@ -1,4 +1,5 @@
 import Blog from "@/components/Blog";
+import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Placeholder from "@/components/Placeholder";
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Projects />
         <Blog />
+        <Contact />
         <Placeholder />
       </div>
     </main>

@@ -1,6 +1,8 @@
+import { ReactNode } from "react";
+
 interface SectionProps {
   className?: string;
-  children?: any;
+  children?: ReactNode;
   id?: string;
 }
 
