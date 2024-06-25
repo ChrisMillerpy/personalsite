@@ -9,17 +9,19 @@ import BackgroundSpotlights from "@/components/Spotlight";
 export default function Home() {
   const xlPadding: string = "px-56";
   return (
-    <main
-      className={`flex flex-col min-h-screen bg-darkred-background ${xlPadding}`}
-    >
-      <Header padding={xlPadding} />
-      <BackgroundSpotlights />
-      <div className="z-10">
-        <Hero />
-        <Projects />
-        <Blog />
-        <Contact />
-      </div>
-    </main>
+    <>
+      <main
+        className={`flex flex-col min-h-screen bg-darkred-background ${xlPadding}`}
+      >
+        <Header padding={xlPadding} />
+        <BackgroundSpotlights />
+        <div className="z-10">
+          <Hero />
+          <Projects />
+          <Blog />
+        </div>
+      </main>
+      <Contact />
+    </>
   );
 }
