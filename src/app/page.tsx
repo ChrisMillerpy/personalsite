@@ -1,3 +1,4 @@
+import Blog from "@/components/Blog";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Placeholder from "@/components/Placeholder";
@@ -15,6 +16,7 @@ export default function Home() {
       <div className="z-10">
         <Hero />
         <Projects />
+        <Blog />
         <Placeholder />
       </div>
     </main>

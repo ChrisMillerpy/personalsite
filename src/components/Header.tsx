@@ -20,10 +20,10 @@ const Header: React.FC<HeaderProps> = ({ padding }) => {
             <a href="#projects">projects</a>
           </li>
           <li className="ml-20">
-            <a href="">blog</a>
+            <a href="#blog">blog</a>
           </li>
           <li className="ml-20">
-            <a href="">contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
       </nav>
