@@ -19,7 +19,6 @@ export default function Home() {
         <Projects />
         <Blog />
         <Contact />
-        <Placeholder />
       </div>
     </main>
   );
