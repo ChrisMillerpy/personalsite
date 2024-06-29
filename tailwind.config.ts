@@ -27,6 +27,9 @@ const config: Config = {
         outfit: ["Outfit", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
+      transitionProperty: {
+        height: "height",
+      },
     },
   },
   plugins: [],
