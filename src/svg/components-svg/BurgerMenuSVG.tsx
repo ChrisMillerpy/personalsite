@@ -19,20 +19,20 @@ const BurgerMenuSVG: React.FC<BurgerMenuSVGProps> = ({ isMenuOpen }) => {
         <path
           d="M2 2H37"
           stroke="white"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M2 15H37"
           stroke="white"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M2 28H37"
           stroke="white"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
       </svg>
 
@@ -48,14 +48,14 @@ const BurgerMenuSVG: React.FC<BurgerMenuSVGProps> = ({ isMenuOpen }) => {
         <path
           d="M2.12573 2.62567L26.8745 27.3744"
           stroke="white"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
         <path
           d="M2 26.7487L26.7487 1.99998"
           stroke="white"
-          stroke-width="3"
-          stroke-linecap="round"
+          strokeWidth="3"
+          strokeLinecap="round"
         />
       </svg>
     </>
