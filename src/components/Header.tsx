@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import BurgerMenuSVG from "../../public/svg/components-svg/BurgerMenuSVG";
+import disableScroll from "disable-scroll";
 
 interface BurgerProps {
   isMenuOpen?: boolean;
@@ -28,8 +29,10 @@ const Header: React.FC<HeaderProps> = ({ padding }) => {
   const handleClick = () => {
     if (isMenuOpen) {
       setIsMenuOpen(false);
+      disableScroll.off();
     } else {
       setIsMenuOpen(true);
+      disableScroll.on();
     }
   };
 
