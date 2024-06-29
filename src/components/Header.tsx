@@ -26,13 +26,18 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ padding }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleClick = () => {
-    if (isMenuOpen) {
+  const handleClick = (event: any) => {
+    if (event.target.id === "chrisMiller") {
       setIsMenuOpen(false);
       disableScroll.off();
     } else {
-      setIsMenuOpen(true);
-      disableScroll.on();
+      if (isMenuOpen) {
+        setIsMenuOpen(false);
+        disableScroll.off();
+      } else {
+        setIsMenuOpen(true);
+        disableScroll.on();
+      }
     }
   };
 
@@ -46,8 +51,11 @@ const Header: React.FC<HeaderProps> = ({ padding }) => {
         className={`fixed top-0 left-0 w-full h-[90px] flex flex-row items-center justify-between ${padding}`}
       >
         <div>
-          <a href="#hero">
-            <h2 className="uppercase font-bold text-[24px] tracking-normal">
+          <a onClick={handleClick} href="#hero">
+            <h2
+              id="chrisMiller"
+              className="uppercase font-bold text-[24px] tracking-normal"
+            >
               Chris Miller
             </h2>
           </a>
