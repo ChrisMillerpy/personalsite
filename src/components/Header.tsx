@@ -1,8 +1,22 @@
+"use client";
+
+import { useState } from "react";
+
 interface HeaderProps {
   padding?: string;
 }
 
 const Header: React.FC<HeaderProps> = ({ padding }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleClick = () => {
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    } else {
+      setIsMenuOpen(true);
+    }
+  };
+
   return (
     <div
       className={`fixed flex items-center justify-between top-0 left-0 bg-darkred-header bg-opacity-20 backdrop-filter backdrop-blur-lg w-full h-[90px] ${padding} z-50`}
