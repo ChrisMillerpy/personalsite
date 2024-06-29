@@ -24,6 +24,11 @@ html {
   scroll-margin-top: 90px;
 }
 
+#header-div {
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+}
+
 h1 {
   font-family: "Outfit";
   font-size: 64px;

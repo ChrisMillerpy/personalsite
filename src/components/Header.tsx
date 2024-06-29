@@ -43,9 +43,10 @@ const Header: React.FC<HeaderProps> = ({ padding }) => {
 
   return (
     <div
+      id="header-div"
       className={`fixed top-0 left-0 w-full h-[90px] ${
         isMenuOpen ? "h-full" : "h-90px"
-      } transition-height flex items-center justify-center bg-darkred-header bg-opacity-20 backdrop-filter backdrop-blur-lg ${padding} z-50`}
+      } transition-height flex items-center justify-center bg-darkred-header bg-opacity-20 ${padding} z-50`}
     >
       <div
         className={`fixed top-0 left-0 w-full h-[90px] flex flex-row items-center justify-between ${padding}`}
