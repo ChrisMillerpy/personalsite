@@ -19,7 +19,7 @@ const Spotlight: React.FC<SpotlightProps> = ({
         size || "h-[30rem] w-[50rem]"
       } ${position || "left-1/4 -top-[15rem]"} ${blur || "blur-none"} ${
         opacity || "opacity-1"
-      } rounded-[50%] absolute z-0 m-auto`}
+      } rounded-[50%] absolute z-0 m-auto hidden md:block`}
     ></div>
   );
 };
