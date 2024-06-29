@@ -38,7 +38,7 @@ const BurgerMenuSVG: React.FC<BurgerMenuSVGProps> = ({ isMenuOpen }) => {
 
       {/* This is the cross/close menu icon */}
       <svg
-        className={`md:hidden block ${isMenuOpen ? "block" : "hidden"}`}
+        className={`${isMenuOpen ? "block" : "hidden"}`}
         width="29"
         height="29"
         viewBox="0 0 29 29"

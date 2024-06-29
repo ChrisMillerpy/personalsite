@@ -11,7 +11,7 @@ interface BurgerProps {
 
 const Burger: React.FC<BurgerProps> = ({ isMenuOpen, handleClick }) => {
   return (
-    <div className="md:hidden block">
+    <div className={`${isMenuOpen ? "block" : "md:hidden block"}`}>
       <button onClick={handleClick}>
         <BurgerMenuSVG isMenuOpen={isMenuOpen} />
       </button>
@@ -61,7 +61,7 @@ const Header: React.FC<HeaderProps> = ({ padding }) => {
           </a>
         </div>
 
-        <nav>
+        <nav className={`${isMenuOpen ? "hidden" : ""}`}>
           <ul className="font-outfit hidden md:flex">
             <li className="ml-20">
               <a href="#projects">projects</a>
