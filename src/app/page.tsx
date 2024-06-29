@@ -7,13 +7,13 @@ import Projects from "@/components/Projects";
 import BackgroundSpotlights from "@/components/Spotlight";
 
 export default function Home() {
-  const xlPadding: string = "px-56";
+  const padding: string = "lg:px-56 md:px-32 px-5";
   return (
     <>
       <main
-        className={`flex flex-col min-h-screen bg-darkred-background ${xlPadding}`}
+        className={`flex flex-col min-h-screen bg-darkred-background ${padding}`}
       >
-        <Header padding={xlPadding} />
+        <Header padding={padding} />
         <BackgroundSpotlights />
         <div className="z-10">
           <Hero />
