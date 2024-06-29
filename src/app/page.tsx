@@ -7,7 +7,7 @@ import Projects from "@/components/Projects";
 import BackgroundSpotlights from "@/components/Spotlight";
 
 export default function Home() {
-  const padding: string = "lg:px-56 md:px-32 px-5";
+  const padding: string = "xl:px-56 lg:px-40 md:px-24 px-5";
   return (
     <>
       <main
