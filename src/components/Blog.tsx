@@ -33,24 +33,20 @@ const MoreBlogPostsButton = () => {
 const Blog = () => {
   return (
     <Section id="blog">
-      <div className="grid grid-cols-3 grid-rows-12 gap-[15px]">
-        <BentoCard className="col-start-1 col-end-3 row-start-1 row-end-9 h-96">
+      <div className="md:grid md:grid-cols-3 md:grid-rows-12 flex flex-col gap-[15px]">
+        <BentoCard className="md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-9 h-[32rem] md:h-96">
           <h3 className="mb-3">Most Recent Title</h3>
           <p>this is the text for the most recent blog post</p>
         </BentoCard>
+        <BentoCard className="md:col-start-1 md:col-end-3 md:row-start-9 md:row-end-13 h-[32rem] md:h-auto">
+          <h4>Second Most Recent Title</h4>
+        </BentoCard>
 
-        <BentoCard className="col-start-3 col-end-4 row-start-1 row-end-7">
+        <BentoCard className="md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-7 h-[32rem] md:h-auto">
           <h4>Featured 1 Title</h4>
         </BentoCard>
-        <BentoCard className="col-start-3 col-end-4 row-start-7 row-end-13">
+        <BentoCard className="md:col-start-3 md:col-end-4 md:row-start-7 md:row-end-13 h-[32rem] md:h-auto">
           <h4>Featured 2 Title</h4>
-        </BentoCard>
-
-        <BentoCard className="col-start-1 col-end-2 row-start-9 row-end-13">
-          <h4>Chronological 1 Title</h4>
-        </BentoCard>
-        <BentoCard className="col-start-2 col-end-3 row-start-9 row-end-13">
-          <h4>Chronological 2 Title</h4>
         </BentoCard>
       </div>
 
