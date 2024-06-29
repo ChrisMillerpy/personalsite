@@ -21,11 +21,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ name, description }) => {
 
 const Projects = () => {
   return (
-    <Section id="projects" className="grid grid-cols-3 gap-[15px]">
+    <Section
+      id="projects"
+      className="md:grid md:grid-cols-3 gap-[15px] flex flex-col"
+    >
       <ProjectCard name="Project 1" description="Description of project 1" />
       <ProjectCard name="Project 2" description="Description of project 2" />
       <ProjectCard name="Project 3" description="Description of project 3" />
-      <ProjectCard name="Project 4" description="Description of project 4" />
     </Section>
   );
 };
