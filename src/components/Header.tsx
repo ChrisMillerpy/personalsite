@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import BurgerMenuSVG from "../../public/svg/components-svg/BurgerMenuSVG";
+import BurgerMenuSVG from "../svg/components-svg/BurgerMenuSVG";
 import disableScroll from "disable-scroll";
 
 interface BurgerProps {
