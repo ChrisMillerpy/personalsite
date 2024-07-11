@@ -14,7 +14,7 @@ export default function Home() {
         className={`flex flex-col min-h-screen bg-darkred-background ${padding}`}
       >
         <Header padding={padding} />
-        {/* <BackgroundSpotlights /> */}
+        <BackgroundSpotlights />
         <div className="z-10">
           <Hero />
           <Projects />

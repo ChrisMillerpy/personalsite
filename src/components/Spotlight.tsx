@@ -19,7 +19,7 @@ const Spotlight: React.FC<SpotlightProps> = ({
         size || "h-[30rem] w-[50rem]"
       } ${position || "left-1/4 -top-[15rem]"} ${blur || "blur-none"} ${
         opacity || "opacity-1"
-      } rounded-[50%] absolute z-0 m-auto hidden md:block`}
+      } rounded-[50%] absolute z-0 m-auto`}
     ></div>
   );
 };
@@ -32,7 +32,7 @@ const BackgroundSpotlights = () => {
         size="h-[30rem] w-[50rem]"
         position="left-[20rem] -top-[15rem]"
         blur="blur-3xl"
-        opacity="opacity-[0.63]"
+        opacity="opacity-[0.53]"
       />
 
       <Spotlight
@@ -40,13 +40,21 @@ const BackgroundSpotlights = () => {
         size="h-[30rem] w-[50rem]"
         position="top-[20rem] -right-[15rem]"
         blur="blur-3xl"
-        opacity="opacity-[0.83]"
+        opacity="opacity-[0.53]"
       />
 
       <Spotlight
         color="bg-spotlight-3"
         size="h-[40rem] w-[40rem]"
         position="top-[30rem] -left-[20rem]"
+        blur="blur-3xl"
+        opacity="opacity-[0.15]"
+      />
+
+      <Spotlight
+        color="bg-spotlight-1"
+        size="h-[40rem] w-[40rem]"
+        position="top-[55rem] -right-[10rem]"
         blur="blur-3xl"
         opacity="opacity-[0.25]"
       />
