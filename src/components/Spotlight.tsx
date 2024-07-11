@@ -54,9 +54,9 @@ const BackgroundSpotlights = () => {
       <Spotlight
         color="bg-spotlight-1"
         size="h-[40rem] w-[40rem]"
-        position="top-[55rem] -right-[10rem]"
+        position="top-[75rem] -right-[10rem]"
         blur="blur-3xl"
-        opacity="opacity-[0.25]"
+        opacity="opacity-[0.15]"
       />
     </>
   );
