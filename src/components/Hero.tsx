@@ -9,9 +9,7 @@ const Hero = () => {
         </h1>
         <p className="md:w-5/6 mb-3">
           My name&apos;s Chris. I&apos;m a maths student and coding enthusiast.
-          Please feel free to have a poke around my projects and blog. I am also
-          very sexy with a wonderful moustache, my lost sector receives 5 star
-          reviews all around, inside and out.
+          Please feel free to have a poke around my projects and blog.
         </p>
         <p>Enjoy and have a nice day :)</p>
       </div>
