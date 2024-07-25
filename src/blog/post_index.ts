@@ -1,3 +1,8 @@
+export const preferences = {
+  firstFeatured: 0,
+  secondFeatured: 1,
+};
+
 export const posts = [
   {
     id: 0,
