@@ -9,4 +9,14 @@ export const posts = [
     title: "First Post",
     filename: "1_first_post.mdx",
   },
+  {
+    id: 2,
+    title: "Second Post",
+    filename: "2_second_post.mdx",
+  },
+  {
+    id: 3,
+    title: "Third Post",
+    filename: "3_third_post.mdx",
+  },
 ];
