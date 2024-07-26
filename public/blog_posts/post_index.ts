@@ -1,9 +1,20 @@
-export const preferences = {
+export const preferences: {
+  firstFeaturedId: number;
+  secondFeaturedId: number;
+} = {
   firstFeaturedId: 0,
   secondFeaturedId: 1,
 };
 
-export const posts = [
+interface Post {
+  id: number;
+  title: string;
+  fileName: string;
+  author: string;
+  datePublished: string;
+}
+
+export const posts: Post[] = [
   {
     id: 0,
     title: "Test Post",
