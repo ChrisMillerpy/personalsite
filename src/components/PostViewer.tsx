@@ -15,7 +15,7 @@ const PostViewer: React.FC<PostViewerProps> = ({ slug }) => {
       .catch((err) => console.log(err));
   });
 
-  return <Markdown children={content} />;
+  return <Markdown>{content}</Markdown>;
 };
 
 export default PostViewer;
