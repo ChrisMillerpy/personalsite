@@ -52,7 +52,7 @@ const Header: React.FC<HeaderProps> = ({ padding }) => {
         className={`fixed top-0 left-0 w-full h-[90px] flex flex-row items-center justify-between ${padding}`}
       >
         <div>
-          <a onClick={handleClick} href="#hero">
+          <a onClick={handleClick} href="/#hero">
             <h2
               id="chrisMiller"
               className="uppercase font-bold text-[24px] tracking-normal"
@@ -65,13 +65,13 @@ const Header: React.FC<HeaderProps> = ({ padding }) => {
         <nav className={`${isMenuOpen ? "hidden" : ""}`}>
           <ul className="font-outfit hidden md:flex">
             <li className="ml-20">
-              <a href="#projects">projects</a>
+              <a href="/#projects">projects</a>
             </li>
             <li className="ml-20">
-              <a href="#blog">blog</a>
+              <a href="/#blog">blog</a>
             </li>
             <li className="ml-20">
-              <a href="#contact">contact</a>
+              <a href="/#contact">contact</a>
             </li>
           </ul>
         </nav>
