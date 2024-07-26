@@ -2,7 +2,6 @@ import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Placeholder from "@/components/Placeholder";
 import Projects from "@/components/Projects";
 import BackgroundSpotlights from "@/components/Spotlight";
 
