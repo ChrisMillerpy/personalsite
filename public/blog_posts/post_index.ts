@@ -14,7 +14,8 @@ interface Post {
   datePublished: string;
 }
 
-export const posts: Post[] = [
+export const posts: any[] = [
+  // export const posts: Post[] = [
   {
     id: 0,
     title: "Test Post",
