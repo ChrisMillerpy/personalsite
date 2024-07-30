@@ -23,7 +23,7 @@ export default function Page({
   return (
     <div>
       <Section>
-        <PostViewer slug={params.slug} />
+        <PostViewer slug={slug} />
       </Section>
     </div>
   );
